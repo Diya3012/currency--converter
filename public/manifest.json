@@ -3,17 +3,17 @@
   "description": "converts foreign currency to native currency",
   "version": "1.0",
   "icons":{
-    "16": "16x16.jpg",
-    "48": "48x48.jpg",
-    "128": "128x128.jpg"
+    "16": "16x16.ico",
+    "48": "48x48.ico",
+    "128": "128x128.ico"
   },
   "action":{
        "default_title": "Money Converter",
        "default_popup": "index.html",
        "default_icon": {
-         "16": "16x16.jpg",
-         "48": "48x48.jpg",
-         "128": "128x128.jpg"
+         "16": "16x16.ico",
+         "48": "48x48.ico",
+         "128": "128x128.ico"
        }
   }
 
