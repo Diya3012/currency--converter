@@ -1,6 +1,7 @@
 import React ,{useEffect,useState} from 'react';
 import './App.css';
-import CurrencyRow from './CurrencyRow'
+import CurrencyRow from './CurrencyRow';
+
 import backgroundvid from './vid/video.mp4'
 const BASE_URL='https://api.exchangerate.host/latest'
 

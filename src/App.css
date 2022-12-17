@@ -41,6 +41,10 @@ h1{
   background-color:rgba(189, 18, 18, 0.658) ;
   border-radius: 10px;
 }
+.curs
+{
+  cursor: pointer;
+}
 select
 {
   margin-left: .5rem;
@@ -80,6 +84,7 @@ select
 .input
 {
   height: 20px;
+  width: 80px;
 }
 .hover
 {
