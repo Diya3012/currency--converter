@@ -2,6 +2,8 @@ import React ,{useEffect,useState} from 'react';
 import './App.css';
 import CurrencyRow from './CurrencyRow';
 
+import CurrencyRow1 from './CurrencyRow1';
+
 import backgroundvid from './vid/video.mp4'
 const BASE_URL='https://api.exchangerate.host/latest'
 
@@ -58,8 +60,8 @@ function App() {
         <source src={backgroundvid} type='video/mp4'/>
       </video>
       <div className='frame'>
-      <h1><span className="title"><i class="fa-solid fa-piggy-bank"></i>Convert</span></h1>
-      <span className="text">CHOOSE NATIVE CURRENCY</span>
+      <h1><span className="title"><i class="fa-solid fa-piggy-bank"></i>    Convert</span></h1>
+      <h1><span className="text">Native Currency</span></h1>
       <CurrencyRow
         currencyOptions={currencyOptions}
         selectedCurrency={fromCurrency} 
@@ -68,8 +70,8 @@ function App() {
         amount={fromAmount}
       />
       <div className="equals">=</div>
-      <span className="text">CONVERTED VALUE</span>
-      <CurrencyRow
+      <h1><span className="text">Converted Currency</span></h1>
+      <CurrencyRow1
         currencyOptions={currencyOptions} 
         selectedCurrency={toCurrency}
         onChangeCurrency={e => setToCurrency(e.target.value)}

@@ -16,7 +16,8 @@ export default function CurrencyRow1(props) {
     const renderTooltip = (props) => (
       
       <Tooltip id="button-tooltip" {...props} className="hover">
-        <input classname="input" type="number" className="input" value={amount} onChange={onChangeAmount}/>
+        
+      <input classname="input" type="number" className="input" value={amount} onChange={onChangeAmount}/>
       </Tooltip>
     );
   return (
@@ -28,13 +29,11 @@ export default function CurrencyRow1(props) {
       overlay={renderTooltip}
     >
 
-      <select className='curs' class="form-select form-select-lg mb-3" >
-      {currencyOptions.map(option => (
+<select  className='curs' value={selectedCurrency} onChange={onChangeCurrency}>
+        {currencyOptions.map(option => (
             <option key={option} value={option}>{option}</option>
         ))}
-</select>
-
-        
+      </select>
       </OverlayTrigger>
 
     </div>
