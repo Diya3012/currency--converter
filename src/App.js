@@ -1,6 +1,7 @@
 import React ,{useEffect,useState} from 'react';
 import './App.css';
 import CurrencyRow from './CurrencyRow'
+import backgroundvid from './vid/video.mp4'
 const BASE_URL='https://api.exchangerate.host/latest'
 
 function App() {
@@ -52,6 +53,9 @@ function App() {
   }
   return (
     <div className='border'>
+      <video autoPlay loop muted id='video'>
+        <source src={backgroundvid} type='video/mp4'/>
+      </video>
       <div className='frame'>
       <h1><span className="title"><i class="fa-solid fa-piggy-bank"></i>Convert</span></h1>
       <span className="text">CHOOSE NATIVE CURRENCY</span>

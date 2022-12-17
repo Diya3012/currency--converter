@@ -5,8 +5,17 @@ body {
   align-items: center;
   min-height: 100vh;
   text-align: center;
-  background-color:rgba(22, 22, 110, 0.856) ;
+  background-color:rgba(189, 18, 18, 0.658) ;
   
+}
+#video{
+  position: fixed;
+  z-index: -1;
+  width: 1000px;
+  height: 1000px;
+  margin-top: -270px;
+  margin-bottom: 400px;
+  margin-left: -400px;
 }
 
 h1{
@@ -29,7 +38,8 @@ h1{
   font-size: 20PX;
   float:left;
   color: white;
-  background-color:rgba(22, 22, 110, 0.856) ;
+  background-color:rgba(189, 18, 18, 0.658) ;
+  border-radius: 10px;
 }
 select
 {
@@ -55,14 +65,13 @@ select
   padding: 10px;
   border-radius: 10px;
   background-image: url(./Premium\ Photo\ _\ Stock\ market\ or\ forex\ trading\ graph\ in\ graphic\ concept.jpg);
-  
 }
-.border
+.bor
 {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
-  background-color:rgba(22, 22, 110, 0.856) ;
+  background-color:rgba(189, 18, 18, 0.658) ;
   height: 400px;
   width: 320px;
   padding: 10px;
@@ -71,4 +80,13 @@ select
 .input
 {
   height: 20px;
+}
+.hover
+{
+  
+  color: white;
+}
+.drop
+{
+  size: 40px;
 }
