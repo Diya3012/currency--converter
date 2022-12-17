@@ -14,11 +14,11 @@ function App() {
   let toAmount, fromAmount
   if (amountInFromCurrency){
     fromAmount = amount
-    toAmount = amount * exchangeRate
+    toAmount = amount*exchangeRate
   }
   else{
     toAmount=amount
-    fromAmount=amount / exchangeRate
+    fromAmount=amount/exchangeRate
   }
 
   useEffect(() =>{
