@@ -51,8 +51,9 @@ function App() {
     setAmountInFromCurrency(false)
   }
   return (
-    <>
-      <h1>Convert</h1>
+    <div className='border'>
+      <div className='frame'>
+      <h1><i class="fa-solid fa-piggy-bank"></i>Convert</h1>
       <CurrencyRow
         currencyOptions={currencyOptions}
         selectedCurrency={fromCurrency} 
@@ -68,7 +69,8 @@ function App() {
         onChangeAmount={handleToAmountChange}
         amount={toAmount}
       />
-    </>
+      </div>
+    </div>
   );
 }
 
