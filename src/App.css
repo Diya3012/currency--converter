@@ -5,7 +5,8 @@ body {
   align-items: center;
   min-height: 100vh;
   text-align: center;
-  background-image: url(./Premium\ Photo\ _\ Stock\ market\ or\ forex\ trading\ graph\ in\ graphic\ concept.jpg);
+  background-color:rgba(22, 22, 110, 0.856) ;
+  
 }
 
 h1{
@@ -15,15 +16,21 @@ h1{
 
 }
 
-.input{
-  margin-top: 20px;
-  border: 1px solid #333;
-  border-radius: .3em;
-  padding: .25rem;
-  width: 11em;
-  height: 29px;
-}
+.title{
+  color: white;
+  margin-bottom: 20PX;
 
+}
+.text
+{
+  width: 220px;
+  margin-top: 29px;
+  margin-bottom: 20px;
+  font-size: 20PX;
+  float:left;
+  color: white;
+  background-color:rgba(22, 22, 110, 0.856) ;
+}
 select
 {
   margin-left: .5rem;
@@ -31,9 +38,10 @@ select
 }
 
 .equals{
-  margin-top: 20px;
+  margin-top: 22px;
   font-weight: bold;
   font-size: 2rem;
+  color: white;
   
 }
 .frame
@@ -46,6 +54,8 @@ select
   width: 299px;
   padding: 10px;
   border-radius: 10px;
+  background-image: url(./Premium\ Photo\ _\ Stock\ market\ or\ forex\ trading\ graph\ in\ graphic\ concept.jpg);
+  
 }
 .border
 {
@@ -57,4 +67,8 @@ select
   width: 320px;
   padding: 10px;
   border-radius: 10px;
+}
+.input
+{
+  height: 20px;
 }

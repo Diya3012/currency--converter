@@ -35,7 +35,7 @@ function App() {
 
   useEffect(() => {
     if (fromCurrency != null && toCurrency != null){
-      fetch('${BASE_URL}?base=${fromCurrency}&symbols=${toCurrency}')
+      fetch(`${BASE_URL}?base=${fromCurrency}&symbols=${toCurrency}`)
         .then(res => res.json())
         .then(data =>setExchangeRate(data.rates[toCurrency]))
     }
@@ -53,7 +53,8 @@ function App() {
   return (
     <div className='border'>
       <div className='frame'>
-      <h1><i class="fa-solid fa-piggy-bank"></i>Convert</h1>
+      <h1><span className="title"><i class="fa-solid fa-piggy-bank"></i>Convert</span></h1>
+      <span className="text">CHOOSE NATIVE CURRENCY</span>
       <CurrencyRow
         currencyOptions={currencyOptions}
         selectedCurrency={fromCurrency} 
@@ -62,6 +63,7 @@ function App() {
         amount={fromAmount}
       />
       <div className="equals">=</div>
+      <span className="text">CONVERTED VALUE</span>
       <CurrencyRow
         currencyOptions={currencyOptions} 
         selectedCurrency={toCurrency}
