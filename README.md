@@ -1,3 +1,13 @@
+
+# Project Name
+CuCo - The currency converter
+
+# Project functionality
+A plugin for the web that helps to show the natvecurrencies from the contries.A choice to choose from thenative currency should be checked. Whwn hovered over the foreign currency,a small floating screen should show the native currency.
+
+# Stack used
+React js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +78,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### To add extension
+go to google chrome extention.turn on developer mode .Go to load unpacked and select the build folder in our respective project folder
+
