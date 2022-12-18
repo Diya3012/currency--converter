@@ -1,3 +1,5 @@
+/*Contains the first input tab and the select tab
+*/
 import React from 'react'
 import './App.css';
 export default function CurrencyRow(props) {

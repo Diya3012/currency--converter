@@ -1,3 +1,4 @@
+/* Contain the row of the output with hovering functionality*/
 import React from 'react'
 import './App.css';
 import Button from 'react-bootstrap/Button';
