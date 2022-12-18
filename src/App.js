@@ -61,7 +61,7 @@ function App() {
       </video>
       <div className='frame'>
       <h1><span className="title"><i class="fa-solid fa-piggy-bank"></i>    Convert</span></h1>
-      <h1><span className="text">Native Currency</span></h1>
+      <h1><span className="text1">Native Currency</span></h1>
       <CurrencyRow
         currencyOptions={currencyOptions}
         selectedCurrency={fromCurrency} 
@@ -69,8 +69,8 @@ function App() {
         onChangeAmount={handleFromAmountChange}
         amount={fromAmount}
       />
-      <div className="equals">=</div>
-      <h1><span className="text">Converted Currency</span></h1>
+      <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+      <h1><span className="text2">    Converted Currency</span></h1>
       <CurrencyRow1
         currencyOptions={currencyOptions} 
         selectedCurrency={toCurrency}

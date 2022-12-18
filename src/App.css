@@ -20,7 +20,8 @@ body {
 
 h1{
   margin: 0;
-  margin-bottom: .5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 
 
 }
@@ -28,17 +29,35 @@ h1{
 .title{
   color: white;
   margin-bottom: 20PX;
-
 }
-.text
+
+.text1
 {
   width: 220px;
-  margin-top: 29px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 20PX;
-  float:left;
+  float:center;
+  text-align:center;
+  text-align-last:unset;
   color: white;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
+  font-family: Garamond;
+}
+
+.text2
+{
+  width: 220px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20PX;
+  text-decoration: dashed;
+  float: center;
+  text-align:100px;
+  text-align-last: 300px;
+  color: white;
+  /*border-radius: 10px;*/
+  font-family: Garamond;
 }
 .curs
 {
@@ -50,31 +69,32 @@ select
 
 }
 
-.equals{
-  margin-top: 22px;
+.icon{
+  margin-top: 35px;
+  margin-bottom: -16px;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
-  
 }
+
 .frame
 {
   margin-top: 5px;
   display: flex;
   flex-direction: column;
-  background-color:white ;
+  background-color:rgb(62, 13, 13) ;
   height: 440px;
   width: 299px;
   padding: 10px;
   border-radius: 10px;
-  background-image: url(./Premium\ Photo\ _\ Stock\ market\ or\ forex\ trading\ graph\ in\ graphic\ concept.jpg);
+  /*background-image: url(./Premium\ Photo\ _\ Stock\ market\ or\ forex\ trading\ graph\ in\ graphic\ concept.jpg);*/
 }
-.bor
+.border
 {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
-  background-color:rgba(189, 18, 18, 0.658) ;
+  background-color:rgb(51, 3, 3) ;
   height: 400px;
   width: 320px;
   padding: 10px;
