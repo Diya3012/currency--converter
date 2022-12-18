@@ -3,7 +3,7 @@
 CuCo - The currency converter
 
 # Project functionality
-A plugin for the web that helps to show the natvecurrencies from the contries.A choice to choose from thenative currency should be checked. Whwn hovered over the foreign currency,a small floating screen should show the native currency.
+A plugin for the web that helps to show the native currencies from the countries.A choice to choose from the native currency should be checked. When hovered over the foreign currency,a small floating screen should show the native currency.
 
 # Stack used
 React js
